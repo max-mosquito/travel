@@ -146,7 +146,6 @@ body.lock:after {
   }
 }
 .slider1 .slider1_item.slick-current .slider1_text h1 {
-  color: red;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
