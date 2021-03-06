@@ -131,7 +131,7 @@ body.lock:after {
 .slider1_text p {
   font-family: Nunito;
   font-weight: 600;
-  color: #4D4D4D;
+  color: #fff;
   text-align: center;
   font-size: calc(16px + 2 * ((100vw - 320px) / 1600));
   line-height: calc(22px + 3 * ((100vw - 320px) / 1600));
