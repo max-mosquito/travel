@@ -123,6 +123,10 @@ body.lock:after {
   padding: 30px;
   font-size: calc(36px + 60 * ((100vw - 320px) / 1600));
   line-height: calc(40px + 68 * ((100vw - 320px) / 1600));
+  opacity: 0;
+  -webkit-transform: scale(2, 2);
+      -ms-transform: scale(2, 2);
+          transform: scale(2, 2);
 }
 .slider1_text p {
   font-family: Nunito;
@@ -141,6 +145,20 @@ body.lock:after {
             transform: translate(0, -50%);
   }
 }
+.slider1 .slider1_item.slick-current .slider1_text h1 {
+  color: red;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+      -ms-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transition-delay: 0.5s;
+       -o-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
 .top {
   position: absolute;
   top: 60px;
